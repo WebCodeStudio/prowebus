@@ -15,10 +15,48 @@
           </select>
           <input type="text" placeholder="Prihlasovacie meno" id="username" required />
           <input type="text" placeholder="Prihlasovacie heslo" id="password" required />
+          <fieldset class="user-account-settings">
+            <legend>Nastavenia oprávnení užívateľa</legend>
+            <aside>
+              <label for="">Nastavenia</label>
+              <input type="checkbox" name="" id="settings">
+              <label for="">Update systému</label>
+              <input type="checkbox" name="" id="update">
+              <label for="">Zmena už. práv</label>
+              <input type="checkbox" name="" id="change-user">
+              <label for="">Marketing</label>
+              <input type="checkbox" name="" id="marketing">
+              <label for="">Fakturácia</label>
+              <input type="checkbox" name="" id="invoices">
+              <label for="">Reklamácie</label>
+              <input type="checkbox" name="" id="complaint">
+              <label for="">Sklad</label>
+              <input type="checkbox" name="" id="warehouse">
+              <label for="">Vernostný program</label>
+              <input type="checkbox" name="" id="loyality">
+              <label for="">Zmena objednávok</label>
+              <input type="checkbox" name="" id="change-order">
+              <label for="">Zmena faktúr a predfaktúr</label>
+              <input type="checkbox" name="" id="change-invoices">
+              <label for="">Štatistiky</label>
+              <input type="checkbox" name="" id="stats">
+              <label for="">Prehľady</label>
+              <input type="checkbox" name="" id=""> 
+              <label for="">Prístup na server</label>
+              <input type="checkbox" name="" id="change-invoices">
+              <label for="">Prístup na e-mail server</label>
+              <input type="checkbox" name="" id="marketing">
+              <label for="">Prístup do databázy</label>
+              <input type="checkbox" name="" id="change-user">
+              <label for="">Prístup do databázy</label>
+              <input type="checkbox" name="" id="change-user">
+            </aside>
+          </fieldset>
           <button>Uložiť užívateľa</button>
         </form>
      </fieldset>
     </article>
+
 
     <article>
       <fieldset class="users-settings">
@@ -89,6 +127,47 @@ export default {
       padding: 0 0.5rem;
       border: 1px solid $head-color-1;
       border-radius: 0.5rem;
+    }
+  }
+
+  & .user-account-settings {
+    width: 100%;
+
+    background: $background;
+
+    border-radius: 0.5rem;
+    border: 1px solid $head-color-1;
+
+    margin: 1.5rem 0;
+    padding: 0rem;
+
+    & legend {
+      background: $background;
+      padding: 0 0.5rem;
+      border: 1px solid $head-color-1;
+      border-radius: 0.5rem;
+    }
+
+    & aside {
+      display: flex;
+      flex-direction: row;
+      width: 24%;
+      flex-wrap: wrap;
+      
+      width: 100%;
+
+      margin: 1rem;
+
+      & input {
+        width: 100%;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 3rem;
+      }
+
+      label {
+        width: 40%;
+      }
     }
   }
 

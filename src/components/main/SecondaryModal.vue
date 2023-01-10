@@ -56,20 +56,25 @@ export default {
       height: 3rem;
       text-align: center;
 
-      background: $head-color-3;
-      color: $text-color-1;
-
+      background: $background;
+     
       position: absolute;
       top: 1rem;
       right: 1rem;
 
       font: {
         size: 2rem;
-        weight: 700;
+        weight: 900;
       }
-      border: 1px solid $standard-red;
-      border-radius: 50%;
+
+      border: none;
       padding: 0.1%;
+
+      &:hover,
+      &:focus {
+        color: $head-color-3;
+        transition: all 0.1s;
+      }
     }
 
     & h2 {

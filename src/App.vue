@@ -2,7 +2,7 @@
   <nav class="sub-navigation">
     <img
       class="logo"
-      src="./assets/img/logo-admin-2022.png"
+      src="./assets/img/logo-admin-2022-2.svg"
       alt="Logo ProWEB-Slovakia"
       width="229"
       height="50"

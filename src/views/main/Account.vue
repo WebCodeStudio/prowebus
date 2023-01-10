@@ -26,51 +26,6 @@
         </aside>
       </form>
     </fieldset>
-    <fieldset class="user-account-settings">
-      <legend>Nastavenia oprávnení užívateľa</legend>
-      <form action="" class="user-account-login-role">
-        <aside>
-          <label for="">Nastavenia</label>
-          <input type="checkbox" name="" id="settings">
-          <label for="">Update systému</label>
-          <input type="checkbox" name="" id="update">
-          <label for="">Zmena už. práv</label>
-          <input type="checkbox" name="" id="change-user">
-          <label for="">Marketing</label>
-          <input type="checkbox" name="" id="marketing">
-        </aside>
-        <aside>
-          <label for="">Fakturácia</label>
-          <input type="checkbox" name="" id="invoices">
-          <label for="">Reklamácie</label>
-          <input type="checkbox" name="" id="complaint">
-          <label for="">Sklad</label>
-          <input type="checkbox" name="" id="warehouse">
-          <label for="">Vernostný program</label>
-          <input type="checkbox" name="" id="loyality">
-        </aside>
-        <aside>
-          <label for="">Zmena objednávok</label>
-          <input type="checkbox" name="" id="change-order">
-          <label for="">Zmena faktúr a predfaktúr</label>
-          <input type="checkbox" name="" id="change-invoices">
-          <label for="">Štatistiky</label>
-          <input type="checkbox" name="" id="stats">
-          <label for="">Prehľady</label>
-          <input type="checkbox" name="" id=""> 
-        </aside>
-        <aside>
-          <label for="">Prístup na server</label>
-          <input type="checkbox" name="" id="change-invoices">
-          <label for="">Prístup na e-mail server</label>
-          <input type="checkbox" name="" id="marketing">
-          <label for="">Prístup do databázy</label>
-          <input type="checkbox" name="" id="change-user">
-          <label for="">Prístup do databázy</label>
-          <input type="checkbox" name="" id="change-user">
-        </aside>
-      </form>
-    </fieldset>
   </section>
 </template>
 
