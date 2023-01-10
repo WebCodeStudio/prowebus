@@ -30,9 +30,7 @@ export default {};
   height: 60.8vh;
   flex-direction: row;
   flex-wrap: wrap;
-  position: relative;
-  overflow-y: scroll;
-
+ 
   & figure {
     width: 18rem;
     min-width: 10.7%;

@@ -78,8 +78,6 @@ export default {
 .menus {
   display: block;
   height: 56vh;
-  position: relative;
-  overflow-y: scroll;
 }
 
 .menus tr,

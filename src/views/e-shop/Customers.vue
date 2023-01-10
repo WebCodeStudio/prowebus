@@ -131,8 +131,6 @@ export default {};
 .customers {
   display: block;
   height: 56vh;
-  position: relative;
-  overflow-y: scroll;
 }
 
 .customers tr,

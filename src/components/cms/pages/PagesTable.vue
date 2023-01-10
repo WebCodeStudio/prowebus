@@ -137,8 +137,6 @@ export default {
 .page {
   display: block;
   height: 56vh;
-  position: relative;
-  overflow-y: scroll;
 }
 
 .page tr,

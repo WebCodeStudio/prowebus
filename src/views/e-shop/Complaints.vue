@@ -138,8 +138,6 @@ export default {};
 .complaints {
   display: block;
   height: 56vh;
-  position: relative;
-  overflow-y: scroll;
 }
 
 .complaints tr,

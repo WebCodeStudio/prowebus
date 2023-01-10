@@ -130,8 +130,6 @@ export default {};
 .orders {
   display: block;
   height: 56vh;
-  position: relative;
-  overflow-y: scroll;
 }
 
 .orders tr,

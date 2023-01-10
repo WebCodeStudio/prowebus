@@ -135,8 +135,6 @@ export default {};
 .invoices {
   display: block;
   height: 56vh;
-  position: relative;
-  overflow-y: scroll;
 }
 
 .invoices tr,

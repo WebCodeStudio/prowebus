@@ -80,8 +80,6 @@ export default {
 .articles {
   display: block;
   height: 56vh;
-  position: relative;
-  overflow-y: scroll;
 }
 
 .articles tr,
